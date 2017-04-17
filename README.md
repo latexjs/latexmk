@@ -26,5 +26,6 @@ With this done, we can now build a binary of latexmk:
 pp -M FindBin -o latexmk.exe latexmk.pl
 ```
 To build a Windows binary. Note that we manually include `FindBin` as we use this in our custom latexmk config perl script.
+
 3. Commit and push the changes
 4. Rebuild [`latexjs/latexjs`](https://github.com/latexjs/latexjs/blob/master/latexjs/Dockerfile) to include the new version in an update of `Latexjs`.
